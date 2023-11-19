@@ -7,18 +7,42 @@
     <title>Formulario Alba Carrobles</title>
 </head>
 <body>
-    <header>
-        <form action:"datospersonales.php" method="get">
-            <p>Nombre: <input type="text" name="Nombre" size="20" placeholder="Escriba su nombre"></p>
-            <p>Apellidos: <input type="text" name="Apellidos" size="40" placeholder="Escriba sus apellidos"></p> 
-            <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento"></p>
-            <p>Sexo: 
-                <input type="radio" name="hm" value="h" required>Hombre 
-                <input type="radio" name="hm" value="m" required>Mujer 
-            </p>
-        </form>
-            </p>
-        </form>
-    </header>
+        <header>
+            <nav>
+                <ul>
+                    <li>Página principal</li>
+                    <li>Currículum</li>
+                    <li>Formulario</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action:"datospersonales.php" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="Nombre" size="20" placeholder="Escriba su nombre" required>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="Apellidos" size="30" placeholder="Escriba sus apellidos"required>
+
+                <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento"required></p>
+
+                <p>Sexo: 
+                    <input type="radio" name="hm" value="h" required>Hombre 
+                    <input type="radio" name="hm" value="m" required>Mujer 
+                </p>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="Email" size="40" placeholder="Escriba su correo electrónico"required>
+
+                <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20" placeholder="Escriba su teléfono móvil"required></p>
+                
+                
+
+            </form>
+                </p>
+        </main>
+        <footer>
+
+        </footer>
     
 </body>
