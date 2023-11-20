@@ -17,7 +17,6 @@
                 </ul>
         </nav>
     </header>
-
     <main>
         <form action:"datospersonales.php" method="get">
             <fieldset>
@@ -31,8 +30,8 @@
                     <p>Fecha de nacimiento: <input type="date" id="fecha" name="fecha de nacimiento"required></p>
 
                     <p>Sexo: 
-                        <input type="radio" id="hombre" name="hm" value="h" required>Hombre 
-                        <input type="radio" id="mujer" name="hm" value="m" required>Mujer 
+                        <input type="radio" id="hombre" name="hm" value="h" required><label for="hombre">Hombre</label> 
+                        <input type="radio" id="mujer" name="hm" value="m" required><label for="mujer">Mujer </label>
                     </p>
             </fieldset>
 
@@ -44,8 +43,8 @@
                     <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20" placeholder="Escriba su teléfono móvil"required></p>
                 
                     <p>Preferencia de contacto: 
-                        <input type="checkbox" name="preferencia" value="Mañana">Mañana
-                        <input type="checkbox" name="preferencia" value="Tarde">Tarde
+                        <input type="checkbox" id="manana" name="preferencia" value="Mañana"><label for="manana">Mañana</label>
+                        <input type="checkbox" id ="tarde" name="preferencia" value="Tarde"><label for="tarde">Tarde</label>
                     </p>
 
                     <p>Preferencia de idioma:
