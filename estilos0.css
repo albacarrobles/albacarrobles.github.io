@@ -1,0 +1,11 @@
+.Características {
+    column-count: 3;
+    column-width: 50%;
+    text-align: justify;
+    border: black 2px solid;
+    margin-top: auto;
+}
+
+.columna {
+    
+}

@@ -5,44 +5,91 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="author" content="Alba Carrobles Merino">
     <title>Formulario Alba Carrobles</title>
+    <link rel="stylesheet" href="estilos2.css">
 </head>
 <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>Página principal</li>
-                    <li>Currículum</li>
-                    <li>Formulario</li>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Currículum/cv.html">Currículum</a></li>
+                <li><a href="/Información proyecto/infpro.html">Sobre proyecto</a></li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <form action:"datospersonales.php" method="get">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="Nombre" size="20" placeholder="Escriba su nombre" required>
+        </nav>
+    </header>
 
-                <label for="apellidos">Apellidos:</label>
-                <input type="text" id="apellidos" name="Apellidos" size="30" placeholder="Escriba sus apellidos"required>
+    <main>
+        <form action:"datospersonales.php" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="Nombre" size="15" placeholder="Escriba su nombre" required>
 
-                <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento"required></p>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="Apellidos" size="30" placeholder="Escriba sus apellidos"required>
 
-                <p>Sexo: 
-                    <input type="radio" name="hm" value="h" required>Hombre 
-                    <input type="radio" name="hm" value="m" required>Mujer 
-                </p>
+                    <p>Fecha de nacimiento: <input type="date" id="fecha" name="fecha de nacimiento"required></p>
 
-                <label for="email">Correo electrónico</label>
-                <input type="email" id="email" name="Email" size="40" placeholder="Escriba su correo electrónico"required>
+                    <p>Sexo: 
+                        <input type="radio" id="hombre" name="hm" value="h" required>Hombre 
+                        <input type="radio" id="mujer" name="hm" value="m" required>Mujer 
+                    </p>
+            </fieldset>
 
-                <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20" placeholder="Escriba su teléfono móvil"required></p>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="Email" size="40" placeholder="Escriba su correo electrónico"required>
+
+                    <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20" placeholder="Escriba su teléfono móvil"required></p>
                 
+                    <p>Preferencia de contacto: 
+                        <input type="checkbox" name="preferencia" value="Mañana">Mañana
+                        <input type="checkbox" name="preferencia" value="Tarde">Tarde
+                    </p>
+
+                    <p>Preferencia de idioma:
+                        <select name="idioma">
+                            <option value="0">...</option>
+                            <option value="Español">Español</option>
+                            <option value="Ingles">Inglés</option>
+                        </select>   
+                    </p>
+                    <p>Indique su nivel <input type="range" id="idioma" name="idioma" min="1" max="3" list="lista-rango">
+                        <datalist id="lista-rango">
+                            <option value="1">Bajo</option>
+                            <option value="2">Medio</option>
+                            <option value="3">Alto</option>
+                        </datalist>
+                    </p>
+            </fieldset>
                 
+            <fieldset>
+                <legend>Datos extra</legend>
+                    <p>Comentarios: 
+                        <textarea name="texto" rows="4" cols="40" placeholder="Si lo desea escriba información adicional"></textarea>
+                    </p>
 
-            </form>
-                </p>
-        </main>
-        <footer>
+                        <p>Archivo:
+                            <input type="file" name="archivo">
+                        </p>
+            </fieldset>
 
-        </footer>
-    
+            <fieldset>
+                <legend>Registro</legend>
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" id="contrasena" name="contrasena" size="20" maxlength="10" placeholder="No más de 10 carácteres"required>
+
+                    <input type="button" value="Borrar">
+                    <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Alba Carrobles Merino. Todos los derechos reservados</p>
+        <p>
+            <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
+        </p>
+    </footer>
 </body>

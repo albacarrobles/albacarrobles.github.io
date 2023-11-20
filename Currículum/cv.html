@@ -5,69 +5,76 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="author" content="Alba Carrobles Merino">
     <title>Currículum Alba Carrobles</title>
+    <link rel="stylesheet" href="estilos1.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>Página principal</li>
-                <li>Currículum</li>
-                <li>Formulario</li>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Formulario/formulario.html">Formulario</a></li>
+                <li><a href="/Información proyecto/infpro.html">Sobre proyecto</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="Nombre y puesto">
-            <h1>Alba Carrobles Merino</h1>
-            <h2>Técnico de sistemas microinformáticos y redes</h2>
-        </section>
-        <hr>
+        <fieldset>
+            <section id="Nombre y puesto">
+                <h1>Alba Carrobles Merino</h1>
+                <h2>Técnico de sistemas microinformáticos y redes</h2>
+            </section>
+        </fieldset>
 
-        <section id="Formación">
-            <h3>Formación académica</h3>
-            <ul>
-                <li><h3>Bachillerato artístico (realizado en IES Isabel la Católica, Madrid)</h3></li>
-                <li><h3>Grado medio Técnico de sistemas microinformáticos y redes (realizado en IES Villablanca, Madrid)</h3></li>   
-            </ul>
-        </section>
-        <hr>
+        <fieldset>
+            <legend>Formación académica</legend>
+            <section id="Formación">
+                <ul>
+                    <li><h4>Bachillerato artístico (realizado en IES Isabel la Católica, Madrid)</h4></li>
+                    <li><h4>Grado medio Técnico de sistemas microinformáticos y redes (realizado en IES Villablanca, Madrid)</h4></li>   
+                </ul>
+            </section>
+        </fieldset>
 
-        <section id="Experiencia Laboral">
-            <h3>Experiencia Laboral</h3>
-            <h4>Camarera: Ascendida a Buddy Trainer, Nandos Bethnal Green (Londres-Reino Unido, Septiembre 2010 hasta Diciembre 2011).</h4>
-            <h4> Desarrollando las siguientes funciones:</h4>
-            <ul>
-                <li>Camarera de sala por rangos.</li>
-                <li>Encargada de realización de pedidos con proveedores.</li>
-                <li>Encargada de realización de albaranes.</li>
-                <li>Formación del nuevo personal.</li>
-                <li>Responsable de solventar cualquier problema con el cliente.</li>
-            </ul>
-            <h4>Recepcionista: Clínica de oftalmología Miranza (Madrid-España, 2017 hasta 2022)</h4>
-            <h4> Desarrollando las siguientes funciones administrativas:</h4>
-            <ul>
-                <li>Citación y recepción de pacientes, vía telefónica y correo electrónico.</li>
-                <li>Facturación con seguros médicos.</li>
-                <li>Realización de pruebas oftalmológicas: graduación, campos visuales, tensión ocular, dilatación pupilar ...</li>
-                <li>Curso Lipiview y Lipiflow, responsable de la realización de las pruebas pertinentes con los pacientes.</li>
-            </ul>
-        </section>
-        <hr>
-
-        <section id="Proyectos">
-            <h3>Proyectos Realizados</h3>
-            <ol>
-                <li>Proyecto Labdoo (IES Villablanca):</li>
-                <p>Red social humanitaria colaborativa que está diseñada para ayudar a traer computadoras portátiles y dispositivos educativos a escuelas necesitadas sin incurrir en costes económicos o ambientales. El objetivo es que el alumnado del IES Villablanca aprenda montaje y mantenimiento de equipos al mismo tiempo que se desarrolla una labor social.</p>
-                    <address>
-                    <a href="https://site.educa.madrid.org/ies.villablanca.madrid/index.php/proyectos-de-centro/">Proyectos IES Villablanca</a>
-                    </address>
-            </ol>
-        </section>
-        <hr>
-
-        <section id="Habilidades">
-            <h3>Perfil</h3>
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+            <section id="Experiencia Laboral">
+                <h3>Camarera: Ascendida a Buddy Trainer, Nandos Bethnal Green (Londres-Reino Unido, Septiembre 2010 hasta Diciembre 2011).</h3>
+                <h4> Desarrollando las siguientes funciones:</h4>
+                <ul>
+                    <li>Camarera de sala por rangos.</li>
+                    <li>Encargada de realización de pedidos con proveedores.</li>
+                    <li>Encargada de realización de albaranes.</li>
+                    <li>Formación del nuevo personal.</li>
+                    <li>Responsable de solventar cualquier problema con el cliente.</li>
+                </ul>
+                <h3>Recepcionista: Clínica de oftalmología Miranza (Madrid-España, 2017 hasta 2022)</h3>
+                <h4> Desarrollando las siguientes funciones administrativas:</h4>
+                <ul>
+                    <li>Citación y recepción de pacientes, vía telefónica y correo electrónico.</li>
+                    <li>Facturación con seguros médicos.</li>
+                    <li>Realización de pruebas oftalmológicas: graduación, campos visuales, tensión ocular, dilatación pupilar ...</li>
+                    <li>Curso Lipiview y Lipiflow, responsable de la realización de las pruebas pertinentes con los pacientes.</li>
+                </ul>
+            </section>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Proyectos Realizados</legend>
+            <section id="Proyectos">
+                <ol>
+                    <li>Proyecto Labdoo (IES Villablanca):</li>
+                    <p>Red social humanitaria colaborativa que está diseñada para ayudar a traer computadoras portátiles y dispositivos educativos a escuelas necesitadas sin incurrir en costes económicos o ambientales. El objetivo es que el alumnado del IES Villablanca aprenda montaje y mantenimiento de equipos al mismo tiempo que se desarrolla una labor social.</p>
+                        <address>
+                        <a href="https://site.educa.madrid.org/ies.villablanca.madrid/index.php/proyectos-de-centro/">Proyectos IES Villablanca</a>
+                        </address>
+                </ol>
+            </section>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Habilidades</legend>
+            <section id="Habilidades">
                 <ul>
                     <li>Instalación y reparación de equipos informáticos.</li>
                     <li>Técnico de redes de datos.</li>
@@ -76,20 +83,22 @@
                     <li>Aprendizaje rápido.</li>
                     <li>Puntualidad.</li>
                 </ul>
-        </section>
-        <hr>
-
-        <section id="Otros datos de interés">
-            <h3>Otros datos de interés</h3>
+            </section>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Otros datos de interés</legend>
+            <section id="Otros datos de interés">
                 <p>Disponible para incorporación inmediata.</p>
                 <p>Capacidad para trabajar de manera remota.</p>
                 <p>Carnet de conducir B.</p>
                 <p>Vehículo propio.</p>
-        </section>
-        <hr>
+            </section>
+        </fieldset>
 
-        <section id="Contacto">
-            <h3>Datos de contacto</h3>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <section id="Contacto">
                 <dl>
                     <dt>Dirección</dt>
                     <dd>Calle Peñaranda de Bracamonte,6</dd>
@@ -98,12 +107,15 @@
                     <dd>687 482 537</dd>
                     <dt>Correo electrónico</dt>
                     <dd>muprespas@gmail.com</dd>
-                </dl>
-        </section>
+                    </dl>
+            </section>
+        </fieldset>
     </main>
-    <footer></footer>
 
-
-
-
+    <footer>
+        <p>Alba Carrobles Merino. Todos los derechos reservados</p>
+        <p>
+            <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
+        </p>
+    </footer>
 </body>
