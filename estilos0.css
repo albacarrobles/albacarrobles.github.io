@@ -1,11 +1,16 @@
-.Características {
+/*.Características {
     column-count: 3;
     column-width: 50%;
     text-align: justify;
     border: black 2px solid;
     margin-top: auto;
-}
+    border-collapse: separate;
+}*/
 
-.columna {
+.columna1 {
+    border: black 2px solid;
+    column-width: 50%;
+    text-align: justify;
+    font-display: flex;
     
 }
