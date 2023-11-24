@@ -1,18 +1,25 @@
 * {
     margin: 0;
+    padding:0;
 }
 
-.header {
-    width: 100%;
-    height: 100px;
+header {
+    padding: 1px;
+    background-color:lightslategrey;
 }
 
 .nav {
     background-color:lightslategrey;
-    width: 100%;
-    height: 100px;
-    display: inline-block;
+    padding: 5px;
     justify-content: center;
+    margin: 20px auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav2 {
+    width: 40%;
+    display:inline-block;
 }
 
 .nav2 a {
@@ -22,13 +29,18 @@
     font-weight: bold;
     color:white;
     font-weight: inherit;
-    padding: 30px 20px;
 }
 
 ul {
     list-style-type: none;
-    display:flex;
-    padding: 30px 20px;
+    width: 120%;
+    margin: 20px auto;
+}
+
+li:hover {
+    background-color:lightseagreen;
+    width: 10%;
+    height: 20px;
 }
 
 .main {
@@ -39,23 +51,34 @@ ul {
 
 .zonaizquierda {
     margin: 0px auto;
-    height: 500px;
+}
+
+.left-sidebar {
+    background-color: rgb(232, 106, 106);
+    width: 15%;
+    height: 100%;
+    justify-content: left;
+    float: left;
+    padding: 25px;
+    font-family:'Times New Roman';
 }
 
 .imprescindibles h4 {
     color:darkred;
     font-weight: bold;
     text-decoration: underline;
+    font-size:20px;
 }
 
 .actividad1 p {
     color:darkred;
     font-weight: bold;
+    font-size:20px;
 }
 
 .lugares p {
     font-style: italic;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .actividad1 img {
@@ -64,12 +87,13 @@ ul {
 
 .actividad2 p{
     color:darkred;
-    font-weight: bold;  
+    font-weight: bold;
+    font-size:20px;
 }
 
 .lugares2 p {
     font-style: italic;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .actividad2 img {
@@ -79,39 +103,36 @@ ul {
 .Características {
     column-count: 3;
     background-color: #cb6af8;
-    width: 103%;
-    height: 500px;
-    font-size:small;
+    width: 112.5%;
+    height: 483px;
+    font-size: small;
     margin: 0px auto;
     padding: 45px;
-}
-
-.columnas p {
-    break-after: column;
-    font-style: italic;
 }
 
 .Características h3 {
     color:indigo;
     font-weight: bold;
+    font-size: 20px;
     text-decoration: underline;
-    text-align: center;
+    margin-left: 100%;
 }
 
-.left-sidebar {
-    background-color: rgb(232, 106, 106);
-    width: 15%;
-    height: 93.5%;
-    justify-content: left;
-    float: left;
-    padding: 25px;
+.columnas p {
+    break-after: column;
+    font-style: italic;
+    font-size: 15.5px;
+}
+
+.columnas h4 {
     font-family:'Times New Roman';
+    font-size: 20px;
 }
 
 .right-sidebar {
     background-color:aquamarine;
     width: 15%;
-    height: 93.5%;
+    height: 523px;
     justify-content: right;
     float:right;
     padding: 25px;
@@ -121,6 +142,7 @@ ul {
 .right-sidebar h4{
     color:darkcyan;
     font-weight: bold;
+    font-size: 20px;
     text-align: center;
     text-decoration: underline;
 }
@@ -128,6 +150,7 @@ ul {
 .right-sidebar p {
     font-size: 12px;
     font-style: italic;
+    font-size: 15px;
 }
 
 .right-sidebar img {
