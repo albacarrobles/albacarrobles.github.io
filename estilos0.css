@@ -129,6 +129,18 @@ li:hover {
     font-size: 20px;
 }
 
+div.column1 {
+    margin-top: 35px;
+}
+
+div.column2 {
+    margin-top: 100px;
+}
+
+div.column3 {
+    margin-top: 100px;
+}
+
 .right-sidebar {
     background-color:aquamarine;
     width: 15%;
