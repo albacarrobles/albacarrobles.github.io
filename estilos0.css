@@ -3,38 +3,32 @@
     padding:0;
 }
 
-header {
-    padding: 1px;
-    background-color:lightslategrey;
+.header {
+    width: 100%;
+    height: 100px;
 }
 
 .nav {
     background-color:lightslategrey;
-    padding: 5px;
-    justify-content: center;
-    margin: 20px auto;
-    display: inline-block;
     width: 100%;
-}
-
-.nav2 {
-    width: 40%;
-    display:inline-block;
+    height: 100px;
+    display: inline-block;
+    justify-content: center;
 }
 
 .nav2 a {
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    color:white;
+    color:beige;
     font-weight: inherit;
+    padding: 40px 150px;
 }
 
 ul {
     list-style-type: none;
-    width: 120%;
-    margin: 20px auto;
+    display:flex;
+    padding: 30px 20px;
 }
 
 li:hover {
@@ -56,7 +50,7 @@ li:hover {
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 15%;
-    height: 100%;
+    height: 552px;
     justify-content: left;
     float: left;
     padding: 25px;
@@ -103,19 +97,18 @@ li:hover {
 .Características {
     column-count: 3;
     background-color: #cb6af8;
-    width: 112.5%;
-    height: 483px;
-    font-size: small;
+    width: 110.5%;
+    height: 511.5px;
+    font-size:medium;
     margin: 0px auto;
     padding: 45px;
 }
 
 .Características h3 {
     color:indigo;
-    font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 100%;
+    margin-left: 110%;
 }
 
 .columnas p {
@@ -141,10 +134,22 @@ div.column3 {
     margin-top: 100px;
 }
 
+div.separar {
+    margin-top: 20px;
+}
+
+div.separar2 {
+    margin-top: 20px;
+}
+
+div.separar3 {
+    margin-top: 20px;
+}
+
 .right-sidebar {
     background-color:aquamarine;
     width: 15%;
-    height: 523px;
+    height: 551.5px;
     justify-content: right;
     float:right;
     padding: 25px;
@@ -167,6 +172,18 @@ div.column3 {
 
 .right-sidebar img {
     border-radius: 5px;
+}
+
+div.enlace {
+    margin-top: 20px;
+}
+
+div.icono {
+    margin-top: 20px;
+}
+
+div.descripcion {
+    margin-top: 20px;
 }
 
 .footer {
