@@ -19,7 +19,8 @@
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
-    color:beige;
+    font-weight: bold;
+    color:white;
     font-weight: inherit;
     padding: 30px 20px;
 }
@@ -41,14 +42,61 @@ ul {
     height: 500px;
 }
 
+.imprescindibles h4 {
+    color:darkred;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.actividad1 p {
+    color:darkred;
+    font-weight: bold;
+}
+
+.lugares p {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.actividad1 img {
+    border-radius: 5px;
+}
+
+.actividad2 p{
+    color:darkred;
+    font-weight: bold;  
+}
+
+.lugares2 p {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.actividad2 img {
+    border-radius: 5px;
+}
+
 .Características {
     column-count: 3;
     background-color: #cb6af8;
     width: 103%;
-    height: 368px;
+    height: 500px;
     font-size:small;
     margin: 0px auto;
-    padding: 75px;
+    padding: 45px;
+}
+
+.columnas p {
+    break-after: column;
+    font-style: italic;
+}
+
+.Características h3 {
+    color:indigo;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .left-sidebar {
@@ -58,9 +106,8 @@ ul {
     justify-content: left;
     float: left;
     padding: 25px;
-    font-family:'Trebuchet MS';
+    font-family:'Times New Roman';
 }
-
 
 .right-sidebar {
     background-color:aquamarine;
@@ -69,7 +116,23 @@ ul {
     justify-content: right;
     float:right;
     padding: 25px;
-    font-family: 'Trebuchet MS';
+    font-family: 'Times New Roman';
+}
+
+.right-sidebar h4{
+    color:darkcyan;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.right-sidebar p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.right-sidebar img {
+    border-radius: 5px;
 }
 
 .footer {
@@ -80,3 +143,8 @@ ul {
     margin-top: 5px;
 }
 
+.footer p {
+    padding: 10px;
+    color:darkgreen;
+    font-weight: bold;
+}
