@@ -145,24 +145,48 @@ div.column1 {
     margin-top: 35px;
 }
 
+.column1 h4 {
+    margin-left: 55px;
+}
+
 div.column2 {
     margin-top: 100px;
+}
+
+.column2 h4 {
+    margin-left: 37px;
 }
 
 div.column3 {
     margin-top: 100px;
 }
 
+.column3 h4 {
+    margin-left: 55px;
+}
+
 div.separar {
     margin-top: 20px;
+}
+
+.separar p {
+    line-height: 25px;
 }
 
 div.separar2 {
     margin-top: 20px;
 }
 
+.separar2 p {
+    line-height: 24px;
+}
+
 div.separar3 {
     margin-top: 20px;
+}
+
+.separar3 p {
+    line-height: 25px;
 }
 
 .right-sidebar {
@@ -216,5 +240,18 @@ div.descripcion {
 .footer p {
     padding: 10px;
     color:darkgreen;
+    font-weight: bold;
+}
+
+div.foot2 {
+    margin-left: 400px;
+}
+
+div.foot3 {
+    margin-left: 550px;
+}
+
+.foot3 a {
+    color:white;
     font-weight: bold;
 }
