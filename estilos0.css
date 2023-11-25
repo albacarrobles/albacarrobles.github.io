@@ -13,7 +13,6 @@
     width: 100%;
     height: 100px;
     display: inline-block;
-    justify-content: center;
 }
 
 .nav2 a {
@@ -46,7 +45,6 @@ ul {
     background-color: rgb(232, 106, 106);
     width: 15%;
     height: 552px;
-    justify-content: left;
     float: left;
     padding: 25px;
     font-family:'Times New Roman';
@@ -127,7 +125,7 @@ ul {
     color:indigo;
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 110%;
+    margin-left: 125%;
 }
 
 .columnas p {
@@ -215,10 +213,12 @@ div.separar3 {
 
 .right-sidebar img {
     border-radius: 5px;
+    margin-left: 60px;
 }
 
 div.enlace {
     margin-top: 20px;
+    margin-left: 55px;
 }
 
 div.icono {
@@ -227,6 +227,7 @@ div.icono {
 
 div.descripcion {
     margin-top: 20px;
+    line-height: 28px;
 }
 
 .footer {
@@ -241,6 +242,11 @@ div.descripcion {
     padding: 10px;
     color:darkgreen;
     font-weight: bold;
+}
+
+div.enlace a {
+    text-decoration: none;
+    color:green;
 }
 
 div.foot2 {
