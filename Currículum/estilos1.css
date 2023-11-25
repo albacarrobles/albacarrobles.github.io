@@ -12,8 +12,15 @@ header {
     text-align: center;
 }
 
+a.header {
+    color:white;
+    font-size: 2em;
+    margin-right: 15%;
+}
 
-
+a.header:hover {
+    color:black;
+}
 
 .main {
     float:left;
