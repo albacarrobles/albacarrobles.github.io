@@ -24,28 +24,66 @@
         <div class="zonaizquierda">
             <aside class="left-sidebar">
                 <form action="get">
-                    <fieldset>
+                    <fieldset class="datos">
                         <legend>Datos personales</legend>
-                        <br>
-                        <label for="nombre">Nombre:</label>
-                        <br>
-                        <input type="text" id="nombre" name="Nombre" size="15" placeholder="Escriba su nombre" required>
-                        <br><br>
+                        <div class="nombre">
+                            <label for="nombre">Nombre:</label>
+                        </div>
+                        <div class="nombre2">
+                            <input type="text" id="nombre" name="Nombre" size="15" placeholder="Escriba su nombre"
+                                required>
+                        </div>
 
-                        <label for="apellidos">Apellidos:</label>
+                        <div class="apellidos">
+                            <label for="apellidos">Apellidos:</label>
+                        </div>
+                        <div class="apellidos2"></div>
                         <input type="text" id="apellidos" name="Apellidos" size="30" placeholder="Escriba sus apellidos"
                             required>
-                        <br><br>
 
-                        <p>Fecha de nacimiento: <input type="date" id="fecha" name="fecha de nacimiento" required></p>
-                        <br>
+                        <div class="fecha">
+                            <p>Fecha de nacimiento: <input type="date" id="fecha" name="fecha de nacimiento" required>
+                            </p>
+                        </div>
 
-                        <p>Sexo:
-                            <input type="radio" id="hombre" name="hm" value="h" required><label
-                                for="hombre">Hombre</label>
-                            <input type="radio" id="mujer" name="hm" value="m" required><label for="mujer">Mujer
-                            </label>
-                        </p>
+                        <div class="sexo">
+                            <p>Sexo:</p>
+                            <div class="sexo2">
+                                <input type="radio" id="hombre" name="hm" value="h" required><label
+                                    for="hombre">Hombre</label>
+                                <input type="radio" id="mujer" name="hm" value="m" required><label for="mujer">Mujer
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nacionalidad">
+                            <label for="nacionalidad">Nacionalidad:</label>
+                        </div>
+                        <div class="nacionalidad2">
+                            <input type="text" id="nacionalidad" name="nacionalidad" size="30"
+                                placeholder="Indicar si tiene doble nacionalidad" required>
+                        </div>
+
+                        <div class="dni">
+                            <label for="dni">DNI o NIE:</label>
+                        </div>
+                        <div class="dni2">
+                            <input type="number" id="dni" name="dni" size="10" placeholder="Recuerde poner la letra"
+                                required>
+                        </div>
+
+                        <div class="validez">
+                            <p>Válido hasta: <input type="date" id="validez" name="validez" required>
+                            </p>
+                        </div>
+
+                        <div class="lugarnacimiento">
+                            <label for="lugarnacimiento">Lugar de nacimiento:</label>
+                        </div>
+                        <div class="lugarnacimiento2">
+                            <input type="text" id="lugarnacimiento" name="lugarnacimiento" size="30"
+                                placeholder="Indique la ciudad y el país" required>
+                        </div>
                     </fieldset>
                 </form>
             </aside>
@@ -54,39 +92,79 @@
         <main class="main">
             <div class="contacto">
                 <form action="get">
-                    <fieldset>
+                    <fieldset class="contacto">
                         <legend>Datos de contacto</legend>
-                        <br>
-                        <label for="email">Correo electrónico</label>
-                        <input type="email" id="email" name="Email" size="40"
-                            placeholder="Escriba su correo electrónico" required>
-                        <br><br>
-                        <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20"
-                                placeholder="Escriba su teléfono móvil" required></p>
-                        <br>
-                        <p>Preferencia de contacto:
-                            <input type="checkbox" id="manana" name="preferencia" value="Mañana"><label
-                                for="manana">Mañana</label>
-                            <input type="checkbox" id="tarde" name="preferencia" value="Tarde"><label
-                                for="tarde">Tarde</label>
-                        </p>
-                        <br>
-                        <p>Preferencia de idioma:
-                            <select name="idioma">
-                                <option value="0">...</option>
-                                <option value="Español">Español</option>
-                                <option value="Ingles">Inglés</option>
-                            </select>
-                        </p>
-                        <br>
-                        <p>Indique su nivel <input type="range" id="idioma" name="idioma" min="1" max="3"
-                                list="lista-rango">
-                            <datalist id="lista-rango">
-                                <option value="1">Bajo</option>
-                                <option value="2">Medio</option>
-                                <option value="3">Alto</option>
-                            </datalist>
-                        </p>
+
+                        <div class="motivo">
+                            <label for="motivo">Motivo del contacto:</label>
+                            <div class="motivo2">
+                                <input type="text" id="motivo" name="motivo" size="85" placeholder="¿Sobre qué?">
+                            </div>
+                        </div>
+
+                        <div class="poe">
+                            <input type="radio" id="particular" name="pa" value="p" required><label
+                                for="particular">Particular</label>
+                            <input type="radio" id="empresa" name="em" value="e" required><label for="empresa">Empresa
+                            </label>
+                        </div>
+
+                        <div class="ocupacion">
+                            <label for="ocupacion">Ocupación si es particular:</label>
+                            <div class="ocupacion2">
+                                <input type="text" id="ocupacion" name="ocupacion" size="85"
+                                    placeholder="Ocupación actual">
+                            </div>
+                        </div>
+
+                        <div class="web">
+                            <label for="web">Sitio web si es empresa:</label>
+                            <div class="web2">
+                                <input type="url" name="empresa" size="85" placeholder="https://...">
+                            </div>
+                        </div>
+
+                        <div class="mail">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="Email" size="40"
+                                placeholder="Escriba su correo electrónico" required>
+                        </div>
+
+                        <div class="tlfno">
+                            <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20"
+                                    placeholder="Escriba su teléfono móvil" required></p>
+                        </div>
+
+                        <div class="prefer">
+                            <p>Preferencia de contacto:</p>
+                                <div class="prefer2">
+                                    <input type="checkbox" id="mañana" name="preferencia" value="Mañana"><label
+                                    for="manana">Mañana</label>
+                                <input type="checkbox" id="tarde" name="preferencia" value="Tarde"><label
+                                    for="tarde">Tarde</label>
+                                </div>  
+                        </div>
+
+                        <div class="idioma">
+                            <p>Preferencia de idioma:
+                                <select name="idioma">
+                                    <option value="0">...</option>
+                                    <option value="Español">Español</option>
+                                    <option value="Ingles">Inglés</option>
+                                </select>
+                            </p>
+                        </div>
+
+                        <div class="nivel">
+                            <p>Indique su nivel (Bajo, Medio o Alto):<input type="range" id="idioma" name="idioma" min="1" max="3"
+                                    list="lista-rango">
+                                <datalist id="lista-rango">
+                                    <option value="1">Bajo</option>
+                                    <option value="2">Medio</option>
+                                    <option value="3">Alto</option>
+                                </datalist>
+                            </p>
+                        </div>
                     </fieldset>
                 </form>
             </div>
@@ -111,8 +189,10 @@
                 <input type="password" id="contrasena" name="contrasena" size="20" maxlength="10"
                     placeholder="No más de 10 carácteres" required>
                 <br><br>
-                <input type="button" value="Borrar">
+                <input type="reset" value="Borrar">
                 <input type="submit" value="Enviar">
+                <input type="botton" value="Este botón no hace nada">
+                <img src="tic.png" alt="tic" width="32" height="32" style="vertical-align: middle;">
             </fieldset>
         </aside>
     </div>

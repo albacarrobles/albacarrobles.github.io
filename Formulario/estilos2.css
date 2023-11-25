@@ -12,7 +12,6 @@
     width: 100%;
     height: 100px;
     display: inline-block;
-    justify-content: center;
 }
 
 .nav2 a {
@@ -22,6 +21,7 @@
     color:beige;
     font-weight: inherit;
     padding: 30px 20px;
+    margin-left: 200px;
 }
 
 ul {
@@ -38,34 +38,193 @@ ul {
 
 .zonaizquierda {
     margin: 0px auto;
-    height: 500px;
-}
-
-.contacto {
-    background-color:  #cb6af8;
-    width: 80%;
-    height: 300px;
-    font-size:small;
-    margin: 0px auto;
-    padding: 75px;
 }
 
 .left-sidebar {
     background-color: rgb(232, 106, 106);
-    width: 30%;
-    height: 90%;
+    width: 21%;
+    height: 450px;
     justify-content: left;
     float: left;
     font-family:'Trebuchet MS';
     font-size:small;
 }
 
+.datos legend {
+    font-size: 18px;
+    color:darkred;
+    font-weight: bold;
+}
+
+div.nombre {
+    margin-top: 10px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.nombre2 {
+    margin-top: 5px;
+}
+
+div.apellidos {
+    margin-top: 10px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.apellidos2 {
+    margin-top: 5px;
+}
+
+div.fecha {
+    margin-top: 10px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.sexo p {
+    margin-top: 10px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.sexo2 {
+    font-size: 15px;
+    margin-top: 10px;
+    color:rgb(180, 22, 22);
+}
+
+div.nacionalidad {
+    margin-top: 10px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.nacionalidad2 {
+    margin-top: 5px;
+}
+
+div.dni {
+    margin-top: 15px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.dni2 {
+    margin-top: 5px;
+}
+
+div.validez {
+    margin-top: 15px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.lugarnacimiento {
+    margin-top: 15px;
+    font-size: 15px;
+    color:darkred;
+}
+
+div.lugarnacimiento2 {
+    margin-top: 5px;
+}
+
+.contacto {
+    background-color:  #cb6af8;
+    width: 99%;
+    height: 440px;
+    font-size:small;
+    margin: 0px auto;
+    padding: 5px;
+    float:left;
+}
+
+.contacto fieldset {
+    padding: 0;
+}
+
+.contacto legend {
+    font-size: 18px;
+    color:indigo;
+    font-weight: bold;
+}
+
+div.motivo {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.motivo2 {
+    margin-top: 5px;
+}
+
+div.poe {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.ocupacion {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.ocupacion2 {
+    margin-top: 5px;
+}
+
+div.web {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.web2 {
+    margin-top: 5px;
+}
+
+div.mail {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.tlfno {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.prefer {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.prefer2 {
+    margin-top: 5px;
+}
+
+div.idioma {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
+div.nivel {
+    margin-top: 15px;
+    font-size: 15px;
+    color:indigo;
+}
+
 .right-sidebar {
     background-color:aquamarine;
     width: 25%;
-    height: 93.5%;
-    justify-content: right;
-    float:right;
+    height: 400px;
+    float: right;
     padding: 25px;
     font-family: 'Trebuchet MS';
     font-size:small;
