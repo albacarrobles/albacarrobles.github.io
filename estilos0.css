@@ -65,22 +65,33 @@ ul {
 }
 
 .actividad1 p {
-    color:darkred;
+    color:rgb(180, 22, 22);
     font-weight: bold;
     font-size: 17px;
     margin-top: 10px;
+    margin-left: 60px;
 }
 
 .actividad1 img {
     border-radius: 5px;
     margin-top: 15px;
+    margin-left: 30px;
+}
+
+.borde1 {
+    border-color: black;
+}
+
+.borde1 p {
+    margin-left: 10px;
 }
 
 .actividad2 p{
-    color:darkred;
+    color:rgb(180, 22, 22);
     font-weight: bold;
     font-size:17px;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 .lugares2 p {
@@ -91,6 +102,15 @@ ul {
 .actividad2 img {
     border-radius: 5px;
     margin-top: 8px;
+    margin-left: 40px;
+}
+
+.borde2 {
+    border-color: black;
+}
+
+.borde2 p {
+    margin-left: 60px;
 }
 
 .Características {
