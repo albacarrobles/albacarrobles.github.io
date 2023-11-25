@@ -46,7 +46,7 @@ ul {
     height: 450px;
     justify-content: left;
     float: left;
-    font-family:'Trebuchet MS';
+    font-family:comic sans-serif;
     font-size:small;
 }
 
@@ -77,7 +77,7 @@ div.apellidos2 {
 }
 
 div.fecha {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 15px;
     color:darkred;
 }
@@ -95,7 +95,7 @@ div.sexo2 {
 }
 
 div.nacionalidad {
-    margin-top: 10px;
+    margin-top: 18px;
     font-size: 15px;
     color:darkred;
 }
@@ -115,13 +115,13 @@ div.dni2 {
 }
 
 div.validez {
-    margin-top: 15px;
+    margin-top: 18px;
     font-size: 15px;
     color:darkred;
 }
 
 div.lugarnacimiento {
-    margin-top: 15px;
+    margin-top: 18px;
     font-size: 15px;
     color:darkred;
 }
