@@ -68,7 +68,7 @@
                             <label for="dni">DNI o NIE:</label>
                         </div>
                         <div class="dni2">
-                            <input type="number" id="dni" name="dni" size="10" placeholder="Recuerde poner la letra"
+                            <input type="number" id="dni" name="dni" placeholder="Recuerde poner la letra"
                                 required>
                         </div>
 
@@ -92,7 +92,7 @@
         <main class="main">
             <div class="contacto">
                 <form action="get">
-                    <fieldset class="contacto">
+                    <fieldset class="contacto2">
                         <legend>Datos de contacto</legend>
 
                         <div class="motivo">
@@ -118,7 +118,7 @@
                         </div>
 
                         <div class="web">
-                            <label for="web">Sitio web si es empresa:</label>
+                            <label for="empresa">Sitio web si es empresa:</label>
                             <div class="web2">
                                 <input type="url" name="empresa" size="85" placeholder="https://...">
                             </div>
@@ -137,12 +137,12 @@
 
                         <div class="prefer">
                             <p>Preferencia de contacto:</p>
-                                <div class="prefer2">
-                                    <input type="checkbox" id="mañana" name="preferencia" value="Mañana"><label
-                                    for="manana">Mañana</label>
+                            <div class="prefer2">
+                                <input type="checkbox" id="mañana" name="preferencia" value="Mañana"><label
+                                    for="mañana">Mañana</label>
                                 <input type="checkbox" id="tarde" name="preferencia" value="Tarde"><label
                                     for="tarde">Tarde</label>
-                                </div>  
+                            </div>
                         </div>
 
                         <div class="idioma">
@@ -156,8 +156,8 @@
                         </div>
 
                         <div class="nivel">
-                            <p>Indique su nivel (Bajo, Medio o Alto):<input type="range" id="idioma" name="idioma" min="1" max="3"
-                                    list="lista-rango">
+                            <p>Indique su nivel (Bajo, Medio o Alto):<input type="range" id="idioma" name="idioma"
+                                    min="1" max="3" list="lista-rango">
                                 <datalist id="lista-rango">
                                     <option value="1">Bajo</option>
                                     <option value="2">Medio</option>
@@ -171,37 +171,59 @@
         </main>
 
         <aside class="right-sidebar">
-            <fieldset>
-                <legend>Datos extra</legend>
-                <br>
-                <p>Comentarios:
-                    <textarea name="texto" rows="4" cols="40"
-                        placeholder="Si lo desea escriba información adicional"></textarea>
-                </p>
-                <br>
-                <p>Archivo:
-                    <input type="file" name="archivo">
-                </p>
-                <br>
-                <p>Registro</p>
-                <br>
-                <p>Contraseña</p>
-                <input type="password" id="contrasena" name="contrasena" size="20" maxlength="10"
-                    placeholder="No más de 10 carácteres" required>
-                <br><br>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-                <input type="botton" value="Este botón no hace nada">
-                <img src="tic.png" alt="tic" width="32" height="32" style="vertical-align: middle;">
-            </fieldset>
-        </aside>
-    </div>
+            <div class="extra">
+                <form action="get">
+                    <fieldset class="extra2">
+                        <legend>Datos extra</legend>
+                        <div class="coment">
+                            <p>Comentarios:</p>
+                        </div>
+                        <div class="coment2">
+                            <textarea name="texto" rows="6" cols="40"
+                                placeholder="Si lo desea escriba información adicional"></textarea>
+                        </div>
 
-    <footer class="footer">
-        <p>Alba Carrobles Merino. Todos los derechos reservados</p>
-        <br>
-        <p>
-            <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
-        </p>
-    </footer>
+                        <div class="archivo">
+                            <p>Archivo:
+                                <input type="file" name="archivo">
+                            </p>
+                        </div>
+
+                        <div class="register">
+                            <p>Registro</p>
+                        </div>
+
+                        <div class="pwd">
+                            <p>Contraseña</p>
+                        </div>
+                        <div class="pwd2">
+                            <input type="password" id="contrasena" name="contrasena" size="20" maxlength="10"
+                                placeholder="No más de 10 carácteres" required>
+                        </div>
+
+                        <div class="reset">
+                            <input type="reset" value="Borrar">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Este botón no hace nada">
+                            <img src="tic.png" alt="tic" width="50" height="50" style="vertical-align: middle;">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </aside>
+        <footer class="footer">
+            <div class="foot2">
+                <p>Alba Carrobles Merino. Todos los derechos reservados</p>
+            </div>
+            <div class="foot3">
+                <p>
+                    <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
+                </p>
+            </div>
+        </footer>
+    </div>
 </body>

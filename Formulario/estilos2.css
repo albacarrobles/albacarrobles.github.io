@@ -54,6 +54,7 @@ ul {
     font-size: 18px;
     color:darkred;
     font-weight: bold;
+    margin-left: 48px;
 }
 
 div.nombre {
@@ -135,6 +136,7 @@ div.lugarnacimiento2 {
     width: 99%;
     height: 440px;
     font-size:small;
+    font-family: comic sans-serif;
     margin: 0px auto;
     padding: 5px;
     float:left;
@@ -148,12 +150,14 @@ div.lugarnacimiento2 {
     font-size: 18px;
     color:indigo;
     font-weight: bold;
+    margin-left: 220px;
 }
 
 div.motivo {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.motivo2 {
@@ -164,12 +168,14 @@ div.poe {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.ocupacion {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.ocupacion2 {
@@ -180,6 +186,7 @@ div.web {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.web2 {
@@ -190,18 +197,21 @@ div.mail {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.tlfno {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.prefer {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.prefer2 {
@@ -212,12 +222,14 @@ div.idioma {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 div.nivel {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
+    margin-left: 5px;
 }
 
 .right-sidebar {
@@ -226,9 +238,75 @@ div.nivel {
     height: 400px;
     float: right;
     padding: 25px;
-    font-family: 'Trebuchet MS';
+    font-family:comic sans-serif;
     font-size:small;
 }
+
+.extra2 legend {
+    font-family:comic sans-serif;
+    font-weight: bold;
+    color:blue;
+    font-size: 18px;
+    margin-left: 110px;
+}
+
+div.extra fieldset {
+    padding: 3px 0;
+    
+}
+
+div.coment {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+    color:blue;
+}
+
+div.coment2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    color:blue;
+}
+
+div.archivo {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    color:blue;
+}
+
+div.register {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+    color:blue;
+}
+
+div.pwd {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+    color:blue;
+}
+div.pwd2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    color:blue;
+}
+
+div.reset {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+div.submit {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
 
 .footer {
     background-color: rgb(118, 220, 110);
@@ -236,4 +314,23 @@ div.nivel {
     height: 100px;
     clear: both;
     margin-top: 5px;
+}
+
+.footer p {
+    padding: 10px;
+    color:darkgreen;
+    font-weight: bold;
+}
+
+div.foot2 {
+    margin-left: 400px;
+}
+
+div.foot3 {
+    margin-left: 550px;
+}
+
+.foot3 a {
+    color:white;
+    font-weight: bold;
 }
