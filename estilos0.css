@@ -31,11 +31,6 @@ ul {
     padding: 30px 20px;
 }
 
-li:hover {
-    background-color:lightseagreen;
-    width: 10%;
-    height: 20px;
-}
 
 .main {
     float:left;
@@ -64,25 +59,28 @@ li:hover {
     font-size:20px;
 }
 
-.actividad1 p {
-    color:darkred;
-    font-weight: bold;
-    font-size:20px;
-}
-
-.lugares p {
+.lugares {
     font-style: italic;
     font-size: 15px;
 }
 
+.actividad1 p {
+    color:darkred;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
 .actividad1 img {
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .actividad2 p{
     color:darkred;
     font-weight: bold;
-    font-size:20px;
+    font-size:17px;
+    margin-top: 15px;
 }
 
 .lugares2 p {
@@ -92,6 +90,7 @@ li:hover {
 
 .actividad2 img {
     border-radius: 5px;
+    margin-top: 8px;
 }
 
 .Características {
