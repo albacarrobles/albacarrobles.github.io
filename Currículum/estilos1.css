@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-
+/*cabecera*/
 header {
     background-color: lightslategrey;
     height: 100px;
@@ -22,15 +22,11 @@ a.header:hover {
     color:black;
 }
 
-.main {
-    float:left;
-    height: auto;
-}
-
 .zonaizquierda {
     margin: 0px auto;
 }
 
+/*parte izquierda*/
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 16.4%;
@@ -54,6 +50,7 @@ table.datosi {
     margin-top: 40px;
 }
 
+/*parte central*/
 .centro {
     background-color: #cb6af8;
     width: 703px;
@@ -63,6 +60,11 @@ table.datosi {
     margin: 0px auto;
     padding: 75px;
     float: left;
+}
+
+.main {
+    float:left;
+    height: auto;
 }
 
 table.cen2 {
@@ -75,6 +77,7 @@ table.cen3 {
     margin-top: 60px;
 }
 
+/*parte derecha*/
 .right-sidebar {
     background-color:aquamarine;
     width: 16.4%;
@@ -94,6 +97,7 @@ table.pro2 {
     margin-top: 60px;
 }
 
+/*pie de página*/
 .footer {
     background-color: rgb(118, 220, 110);
     width: 100%;
