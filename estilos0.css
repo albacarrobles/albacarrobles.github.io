@@ -3,33 +3,25 @@
     padding:0;
 }
 
-.header {
-    width: 100%;
+header {
+    background-color: lightslategrey;
     height: 100px;
+    padding: 1% 1% 0% 5%;
+    font-family:sans-serif;
+    position:sticky;
+    z-index: 1;
+    text-align: center;
 }
 
-.nav {
-    background-color:lightslategrey;
-    width: 100%;
-    height: 100px;
-    display: inline-block;
+a.header {
+    color:white;
+    font-size: 2em;
+    margin-right: 15%;
 }
 
-.nav2 a {
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 20px;
-    color:beige;
-    font-weight: inherit;
-    padding: 40px 150px;
+a.header:hover {
+    color:black;
 }
-
-ul {
-    list-style-type: none;
-    display:flex;
-    padding: 30px 20px;
-}
-
 
 .main {
     float:left;
@@ -67,17 +59,19 @@ ul {
     font-weight: bold;
     font-size: 17px;
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 73px;
 }
 
 .actividad1 img {
     border-radius: 5px;
-    margin-top: 15px;
-    margin-left: 30px;
+    float:left;
 }
 
 .borde1 {
     border-color: black;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-bottom: 5%;
 }
 
 .borde1 p {
@@ -99,23 +93,27 @@ ul {
 
 .actividad2 img {
     border-radius: 5px;
-    margin-top: 8px;
-    margin-left: 40px;
+    float:left;
+    margin-bottom: 5px;
 }
 
 .borde2 {
     border-color: black;
+    padding-top: 15%;
+    padding-left: 25%;
+    padding-bottom: 3%;
 }
 
 .borde2 p {
-    margin-left: 60px;
+    margin-top: 75px;
+    margin-right: 40px;
 }
 
 .Características {
     column-count: 3;
     background-color: #cb6af8;
-    width: 110.5%;
-    height: 511.5px;
+    width: 810px;
+    height: 512px;
     font-size:medium;
     margin: 0px auto;
     padding: 45px;
@@ -190,7 +188,7 @@ div.separar3 {
 .right-sidebar {
     background-color:aquamarine;
     width: 15%;
-    height: 551.5px;
+    height: 552px;
     justify-content: right;
     float:right;
     padding: 25px;
@@ -245,11 +243,11 @@ div.descripcion {
 }
 
 div.foot2 {
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 div.foot3 {
-    margin-left: 550px;
+    margin-left: 700px;
 }
 
 .foot3 a {

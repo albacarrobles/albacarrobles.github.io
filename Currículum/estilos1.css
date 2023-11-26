@@ -24,7 +24,6 @@ a.header:hover {
 
 .main {
     float:left;
-    width: 50%;
     height: auto;
 }
 
@@ -32,37 +31,68 @@ a.header:hover {
     margin: 0px auto;
 }
 
-.nav2 {
-    float:inline-start;
-}
-
-.personal {
-    background-color: #cb6af8;
-    width: 103%;
-    height: 368px;
-    font-size:small;
-    margin: 0px auto;
-    padding: 75px;
-}
-
 .left-sidebar {
     background-color: rgb(232, 106, 106);
-    width: 15%;
-    height: 93.5%;
+    width: 16.4%;
+    height: 500px;
     justify-content: left;
     float: left;
     padding: 25px;
-    font-family:'Trebuchet MS';
+}
+
+aside.img {
+    float:left;
+}
+
+table.izquierda {
+    border:darkred 2px solid;
+    margin-top: 40px;
+}
+
+table.datosi {
+    border:darkred 2px solid;
+    margin-top: 40px;
+}
+
+.centro {
+    background-color: #cb6af8;
+    width: 703px;
+    height: 400px;
+    font-size:small;
+    font-family:comic sans-serif;
+    margin: 0px auto;
+    padding: 75px;
+    float: left;
+}
+
+table.cen2 {
+    border:indigo 2px solid;
+    margin-top: 20px;
+}
+
+table.cen3 {
+    border:indigo 2px solid;
+    margin-top: 60px;
 }
 
 .right-sidebar {
     background-color:aquamarine;
-    width: 15%;
-    height: 93.5%;
+    width: 16.4%;
+    height: 500px;
     justify-content: right;
     float:right;
     padding: 25px;
-    font-family: 'Trebuchet MS';
+    font-family: comic sans-serif;
+}
+
+table.pro {
+    border:blue 2px solid;
+    margin-top: 10px;
+}
+
+table.pro2 {
+    border:blue 2px solid;
+    margin-top: 60px;
 }
 
 .footer {
@@ -71,4 +101,22 @@ a.header:hover {
     height: 100px;
     clear: both;
     margin-top: 5px;
+}
+.footer p {
+    padding: 10px;
+    color:darkgreen;
+    font-weight: bold;
+}
+
+div.foot2 {
+    margin-left: 480px;
+}
+
+div.foot3 {
+    margin-left: 600px;
+}
+
+.foot3 a {
+    color:white;
+    font-weight: bold;
 }
