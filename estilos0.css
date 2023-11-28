@@ -15,12 +15,16 @@ header {
 
 a.header {
     color:white;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 15%;
 }
 
 a.header:hover {
     color:black;
+}
+
+#inicio {
+    background-color:darkslategrey;
 }
 
 .main {

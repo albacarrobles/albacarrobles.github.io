@@ -14,12 +14,16 @@ header {
 
 a.header {
     color:white;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 15%;
 }
 
 a.header:hover {
     color:black;
+}
+
+#formulario {
+    background-color: darkslategrey;
 }
 
 .main {
@@ -32,6 +36,7 @@ a.header:hover {
     margin: 0px auto;
 }
 
+/*columna izquierda*/
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 21%;
@@ -42,6 +47,11 @@ a.header:hover {
     font-size:small;
 }
 
+.left-sidebar fieldset {
+    padding: 10px;
+    padding-top: 10px;
+    height: 470px;
+}
 .datos legend {
     font-size: 18px;
     color:darkred;
@@ -123,6 +133,7 @@ div.lugarnacimiento2 {
     margin-top: 5px;
 }
 
+/*parte central-main*/
 .contacto {
     background-color:  #cb6af8;
     width: 706px;
@@ -136,6 +147,7 @@ div.lugarnacimiento2 {
 
 .contacto fieldset {
     padding: 0;
+    height: 485px;
 }
 
 .contacto legend {
@@ -224,27 +236,31 @@ div.nivel {
     margin-left: 5px;
 }
 
+/*columna derecha*/
 .right-sidebar {
     background-color:aquamarine;
     width: 25%;
-    height: 450px;
+    height: 470px;
     float: right;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 5px;
     font-family:comic sans-serif;
     font-size:small;
 }
 
+div.extra fieldset {
+    padding: 15px;
+    padding-right: 25px;
+    height: 455px;
+}
 .extra2 legend {
     font-family:comic sans-serif;
     font-weight: bold;
     color:blue;
     font-size: 18px;
     margin-left: 110px;
-}
-
-div.extra fieldset {
-    padding: 3px 0;
-    
 }
 
 div.coment {
@@ -290,12 +306,12 @@ div.pwd2 {
 }
 
 div.reset {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 5px;
 }
 
 div.submit {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 5px;
 }
 

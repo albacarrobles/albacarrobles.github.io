@@ -14,12 +14,16 @@ header {
 
 a.header {
     color:white;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 15%;
 }
 
 a.header:hover {
     color:black;
+}
+
+#curriculum {
+    background-color: darkslategray;
 }
 
 .zonaizquierda {
