@@ -52,6 +52,7 @@ table.izquierda th {
 table.datosi {
     border:darkred 2px solid;
     margin-top: 40px;
+    border-bottom:darkred 2px solid;
 }
 
 /*parte central*/
@@ -78,6 +79,10 @@ table.cen2 {
 
 table.cen3 th {
     background-color:#cb6af8;
+}
+
+table.cen2 th {
+    border-bottom:indigo 2px solid;
 }
 
 table.cen3 {
