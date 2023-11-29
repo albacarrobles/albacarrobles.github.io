@@ -3,6 +3,7 @@
     padding:0;
 }
 
+/*cabecera*/
 header {
     background-color: lightslategrey;
     height: 100px;
@@ -23,14 +24,10 @@ a.header:hover {
     color:black;
 }
 
+
 #inicio {
     background-color:darkslategrey;
-}
-
-.main {
-    float:left;
-    width: 50%;
-    height: auto;
+    padding: 20px;
 }
 
 .zonaizquierda {
@@ -72,7 +69,7 @@ a.header:hover {
 }
 
 .borde1 {
-    border-color: black;
+    border-color:black;
     padding-top: 15%;
     padding-left: 15%;
     padding-bottom: 5%;
@@ -111,6 +108,13 @@ a.header:hover {
 .borde2 p {
     margin-top: 75px;
     margin-right: 40px;
+}
+
+/*parte central*/
+.main {
+    float:left;
+    width: 50%;
+    height: auto;
 }
 
 .Características {
@@ -189,6 +193,7 @@ div.separar3 {
     line-height: 25px;
 }
 
+/*columna derecha*/
 .right-sidebar {
     background-color:aquamarine;
     width: 15%;
@@ -220,7 +225,13 @@ div.separar3 {
 
 div.enlace {
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 35px;
+}
+
+div.enlace a {
+    color:white;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 div.icono {
@@ -232,6 +243,7 @@ div.descripcion {
     line-height: 28px;
 }
 
+/*pie de página*/
 .footer {
     background-color: rgb(118, 220, 110);
     width: 100%;

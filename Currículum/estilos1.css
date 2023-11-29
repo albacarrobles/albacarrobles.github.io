@@ -26,11 +26,11 @@ a.header:hover {
     background-color: darkslategray;
 }
 
+/*parte izquierda*/
 .zonaizquierda {
     margin: 0px auto;
 }
 
-/*parte izquierda*/
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 16.4%;
