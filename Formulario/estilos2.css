@@ -306,6 +306,13 @@ div.pwd2 {
     color:blue;
 }
 
+input.boton {
+    margin-top:20px;
+    height: 40px;
+    width: 60px;
+}
+
+/*pie de página*/
 .footer {
     background-color: rgb(118, 220, 110);
     width: 100%;
