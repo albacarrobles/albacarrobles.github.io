@@ -83,7 +83,8 @@ a#enlace {
 }
 
 div#centro {
-    background-color: #cb6af8;
+    background-image: url(/img/html5.jpg);
+    background-repeat: no-repeat;
     width: 853.5px;
     height: 450px;
     font-size:medium;
@@ -104,8 +105,7 @@ h2#celebre {
 
 /*columna derecha*/
 .right-sidebar {
-    background-image: url(/img/html.jpg);
-    background-repeat: no-repeat;
+    background-color: aquamarine;
     width: 15%;
     height: 450px;
     justify-content: right;
