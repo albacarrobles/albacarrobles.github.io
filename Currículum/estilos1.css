@@ -137,12 +137,12 @@ table.cen3 td {
 }
 
 table.pro {
-    border:blue 2px solid;
+    border:darkcyan 2px solid;
     margin-top: 10px;
 }
 
 table.pro th {
-    border-bottom:blue 2px solid;
+    border-bottom:darkcyan 2px solid;
 }
 
 .labdoo {
@@ -155,18 +155,18 @@ table.pro th {
 }
 
 .enlace a {
-    color:blue;
+    color:darkcyan;
     font-weight: bold;
     margin-left: 20px;
 }
 
 table.pro2 {
-    border:blue 2px solid;
+    border:darkcyan 2px solid;
     margin-top: 60px;
 }
 
 table.pro2 th {
-    border-bottom:blue 2px solid;
+    border-bottom:darkcyan 2px solid;
 }
 
 .datos {

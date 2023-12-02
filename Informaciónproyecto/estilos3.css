@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+/*cabecera*/
+header {
+    background-color: lightslategrey;
+    height: 100px;
+    padding: 1% 1% 0% 5%;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+a.header {
+    color:white;
+    font-size: 1.5em;
+    margin-right: 15%;
+}
+
+a.header:hover {
+    color:black;
+}
+
+#sobreproyecto {
+    background-color:darkslategrey;
+    padding: 20px;
+}
+
+/*columna izquierda*/
+.zonaizquierda {
+    margin: 0px auto;
+}
+
+.left-sidebar {
+    background-color: rgb(232, 106, 106);
+    width: 15%;
+    height: 450px;
+    float: left;
+    padding: 25px;
+    font-family:comic sans-serif;
+}
+
+aside.left-sidebar h2 {
+    color:darkred;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+p#creador {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1em;
+}
+
+dt#creador2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+dd#creador3 {
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+p#info {
+    margin-top: 50px;
+}
+
+a#enlace {
+    color:white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*contenido central*/
+.main {
+    float:left;
+    width: 30%;
+    height: auto;
+}
+
+div#centro {
+    background-color: #cb6af8;
+    width: 853.5px;
+    height: 450px;
+    font-size:medium;
+    margin: 0px auto;
+    padding: 25px;
+}
+
+h2#celebre {
+    text-align: center;
+    color:indigo;
+}
+
+.frases {
+    list-style-type: disc;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/*columna derecha*/
+.right-sidebar {
+    background-color:aquamarine;
+    width: 15%;
+    height: 450px;
+    justify-content: right;
+    float:right;
+    padding: 25px;
+    font-family: 'Times New Roman';
+}
+
+aside.right-sidebar h2 {
+    color:darkcyan;
+    text-align: center;
+}
+
+p#informacion {
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+p#info2 {
+    margin-top: 50px;
+}
+a#enlace2 {
+    color:white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*pie de página*/
+.footer {
+    background-color: rgb(118, 220, 110);
+    width: 100%;
+    height: 100px;
+    clear: both;
+    margin-top: 5px;
+}
+
+p#foot2 {
+    color:darkgreen;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+a#foot3 {
+    color:white;
+    font-weight: bold;
+    margin-left: 650px;
+}

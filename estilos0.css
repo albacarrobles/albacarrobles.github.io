@@ -10,6 +10,7 @@ header {
     padding: 1% 1% 0% 5%;
     font-family:sans-serif;
     position:sticky;
+    top:0;
     z-index: 1;
     text-align: center;
 }
@@ -24,12 +25,12 @@ a.header:hover {
     color:black;
 }
 
-
 #inicio {
     background-color:darkslategrey;
     padding: 20px;
 }
 
+ /*columna izquierda*/
 .zonaizquierda {
     margin: 0px auto;
 }
@@ -43,81 +44,57 @@ a.header:hover {
     font-family:'Times New Roman';
 }
 
-.imprescindibles h4 {
+aside.left-sidebar h4 {
     color:darkred;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
     text-decoration: underline;
-    font-size:20px;
 }
 
-.lugares {
-    font-style: italic;
-    font-size: 15px;
-}
-
-.actividad1 p {
-    color:rgb(180, 22, 22);
+p#titulo {
+    color:rgb(91, 4, 4);
+    font-size: 18px;
     font-weight: bold;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-left: 73px;
-}
-
-.actividad1 img {
-    border-radius: 5px;
-    float:left;
-}
-
-.borde1 {
-    border-color:black;
-    padding-top: 15%;
-    padding-left: 15%;
-    padding-bottom: 5%;
-}
-
-.borde1 p {
-    margin-left: 10px;
-}
-
-.actividad2 p{
-    color:rgb(180, 22, 22);
-    font-weight: bold;
-    font-size:17px;
+    text-align: center;
     margin-top: 15px;
-    margin-left: 10px;
 }
 
-.lugares2 p {
+figure.imagenes img {
+    float:left;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pie {
+    text-align: center;
     font-style: italic;
     font-size: 15px;
+    color:rgb(91, 4, 4);
 }
 
-.actividad2 img {
-    border-radius: 5px;
-    float:left;
-    margin-bottom: 5px;
+#pie2 {
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 15px;
+    color:rgb(91, 4, 4);
 }
 
-.borde2 {
-    border-color: black;
-    padding-top: 15%;
-    padding-left: 25%;
-    padding-bottom: 3%;
+.pie3 {
+    margin-left: 85px;
+    font-style: italic;
+    color:rgb(91, 4, 4);
 }
 
-.borde2 p {
-    margin-top: 75px;
-    margin-right: 40px;
-}
-
-/*parte central*/
+/*contenido central*/
 .main {
     float:left;
     width: 50%;
     height: auto;
 }
 
-.Características {
+section.Características {
     column-count: 3;
     background-color: #cb6af8;
     width: 810px;
@@ -127,11 +104,13 @@ a.header:hover {
     padding: 45px;
 }
 
-.Características h3 {
+fieldset {
+    border: #cb6af8;
     color:indigo;
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 125%;
+    margin-left: 75%;
+    width: 500px;
 }
 
 .columnas p {
@@ -140,20 +119,29 @@ a.header:hover {
     font-size: 15.5px;
 }
 
-.columnas h4 {
+.adj {
     font-family:'Times New Roman';
     font-size: 20px;
+    color:indigo;
 }
 
-div.column1 {
-    margin-top: 35px;
+.column1 {
+    margin-top: 70px;
 }
 
 .column1 h4 {
     margin-left: 55px;
 }
 
-div.column2 {
+.separar {
+    margin-top: 20px;
+}
+
+.separar p {
+    line-height: 24px;
+}
+
+.column2 {
     margin-top: 100px;
 }
 
@@ -161,36 +149,12 @@ div.column2 {
     margin-left: 37px;
 }
 
-div.column3 {
-    margin-top: 100px;
-}
-
-.column3 h4 {
-    margin-left: 55px;
-}
-
-div.separar {
-    margin-top: 20px;
-}
-
-.separar p {
-    line-height: 25px;
-}
-
-div.separar2 {
+.separar2 {
     margin-top: 20px;
 }
 
 .separar2 p {
     line-height: 24px;
-}
-
-div.separar3 {
-    margin-top: 20px;
-}
-
-.separar3 p {
-    line-height: 25px;
 }
 
 /*columna derecha*/
@@ -223,22 +187,22 @@ div.separar3 {
     margin-left: 60px;
 }
 
-div.enlace {
+.enlace {
     margin-top: 20px;
     margin-left: 35px;
 }
 
-div.enlace a {
+.enlace a {
     color:white;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-div.icono {
+.icono {
     margin-top: 20px;
 }
 
-div.descripcion {
+.descripcion {
     margin-top: 20px;
     line-height: 28px;
 }
@@ -252,21 +216,15 @@ div.descripcion {
     margin-top: 5px;
 }
 
-.footer p {
-    padding: 10px;
+p#foot2 {
     color:darkgreen;
     font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
 
-div.foot2 {
-    margin-left: 500px;
-}
-
-div.foot3 {
-    margin-left: 700px;
-}
-
-.foot3 a {
+a#foot3 {
     color:white;
     font-weight: bold;
+    margin-left: 650px;
 }

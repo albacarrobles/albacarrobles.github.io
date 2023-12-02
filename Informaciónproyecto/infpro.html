@@ -10,21 +10,48 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="/Currículum/cv.html">Currículum</a></li>
-                <li><a href="/Formulario/formulario.html">Formulario</a></li>
-            </ul>
+            <a class="header" id="inicio" href="../index.html">Inicio</a>
+            <a class="header" href="../Currículum/cv.html">Currículum</a>
+            <a class="header" href="../Formulario/formulario.html">Formulario</a>
+            <a class="header" href="../Informaciónproyecto/infpro.html" id="sobreproyecto">Sobre proyecto</a>
         </nav>
     </header>
 
-    <main></main>
+    <aside class="left-sidebar">
+        <h2>Creador de HTML</h2>
+        <p id="creador">HTML fue creado por el físico Tim Berners-Lee en 1989. El primer documento formal con la descripción de HTML, 
+            se publicó en 1991 con el nombre "HTML tags". Tim Berners-Lee lo define como: </p>
+        <dl>
+            <dt id="creador2">HTML</dt>
+            <dd id="creador3">"Lenguaje de marcado para la creación de documentos electrónicos que pueden ser leídos por humanos y máquinas"</dd>
+        </dl>
+        <p id="info">Para más información, pinche aquí: <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee" id="enlace">Tim Berners-Lee</a></p>
+    </aside>
+    <main class="main">
+        <div id="centro">
+            <article>
+                <h2 id="celebre">Frases célebres de programadores:</h2>
+                <ul>
+                    <li><p class="frases">"La programación es la profesión que nunca terminas de aprender." <mark>Brian Kernighan</mark></p></li>
+                    <li><p class="frases">"La programación es el arte de escribir instrucciones para computadoras que no entienden." <mark>Donald Knuth</mark></p></li>
+                    <li><p class="frases">"Si funciona, no lo toques." <mark>Ken Thompson</mark></p></li>
+                </ul>
+            </article>
+            <section>
+                <p>Enlace documentación proyecto</p>
+                <p>Enlace video del proyecto</p>
+            </section>
+        </div>
+    </main>
+    <aside class="right-sidebar">
+        <h2>Información sobre HTML</h2>
+        <p id="informacion">El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico o que admita texto sin formato.</p>
+        <p id="info2">Para más información, pinche aquí: <a href="https://es.wikipedia.org/wiki/HTML" id="enlace2">HTML</a></p>
+    </aside>
 
-    <footer>
-        <p>Alba Carrobles Merino. Todos los derechos reservados</p>
-        <p>
-            <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
-        </p>
+    <footer class="footer">
+        <p id="foot2">Alba Carrobles Merino. Todos los derechos reservados</p>
+        <p><a href="https://github.com/albacarrobles/albacarrobles.github.io" id="foot3">Git Hub</a></p>
     </footer>
 </body>
 </html>
