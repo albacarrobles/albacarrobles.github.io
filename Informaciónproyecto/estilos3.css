@@ -104,7 +104,8 @@ h2#celebre {
 
 /*columna derecha*/
 .right-sidebar {
-    background-color:aquamarine;
+    background-image: url(/img/html.jpg);
+    background-repeat: no-repeat;
     width: 15%;
     height: 450px;
     justify-content: right;
