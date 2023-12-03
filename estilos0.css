@@ -196,9 +196,13 @@ fieldset {
 }
 
 #enlace a {
-    color:white;
     font-weight: bold;
     font-size: 1.5em;
+    color:white;
+}
+
+#a:visited {
+    color:yellow;
 }
 
 #icono {
@@ -219,6 +223,9 @@ fieldset {
     height: 100px;
     clear: both;
     margin-top: 5px;
+    position: sticky;
+    bottom:0;
+    z-index:1;
 }
 
 p#foot2 {

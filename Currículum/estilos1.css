@@ -36,7 +36,7 @@ a.header:hover {
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 16.4%;
-    height: 500px;
+    height: 700px;
     justify-content: left;
     float: left;
     padding: 25px;
@@ -76,7 +76,7 @@ a.header:hover {
 .centro {
     background-color: #cb6af8;
     width: 703px;
-    height: 400px;
+    height: 600px;
     font-size:small;
     font-family:comic sans-serif;
     margin: 0px auto;
@@ -144,11 +144,18 @@ a.header:hover {
     background-color: #cb6af8;
 }
 
+/*videopresentacion*/
+.yomisma {
+    height: 200px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
 /*parte derecha*/
 .right-sidebar {
     background-color:aquamarine;
     width: 16.4%;
-    height: 500px;
+    height: 700px;
     float:right;
     padding: 25px;
     font-family: comic sans-serif;
@@ -203,6 +210,9 @@ a.header:hover {
     height: 100px;
     clear: both;
     margin-top: 5px;
+    position: sticky;
+    bottom:0;
+    z-index:1;
 }
 
 p#foot2 {
