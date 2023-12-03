@@ -201,8 +201,8 @@ fieldset {
     color:white;
 }
 
-#a:visited {
-    color:yellow;
+#enlace a:hover {
+    color:black;
 }
 
 #icono {

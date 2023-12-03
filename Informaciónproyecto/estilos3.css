@@ -70,9 +70,12 @@ aside.left-sidebar h2 {
 }
 
 #enlace {
-    color:white;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+#enlace:visited {
+    color:white;
 }
 
 /*contenido central*/
@@ -98,7 +101,7 @@ aside.left-sidebar h2 {
 }
 
 .frases {
-    list-style-type: disc;
+    list-style-type: square;
     margin-top: 10px;
     font-style: italic;
     font-size: 1.1em;
