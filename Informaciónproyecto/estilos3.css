@@ -48,28 +48,28 @@ aside.left-sidebar h2 {
     line-height: 25px;
 }
 
-p#creador {
+#creador {
     text-align: center;
     margin-top: 25px;
     font-size: 1em;
 }
 
-dt#creador2 {
+#creador2 {
     margin-top: 20px;
     text-align: center;
 }
 
-dd#creador3 {
+#creador3 {
     margin-top: 5px;
     text-align: center;
     font-style: italic;
 }
 
-p#info {
+#info {
     margin-top: 50px;
 }
 
-a#enlace {
+#enlace {
     color:white;
     font-weight: bold;
     font-size: 1.2em;
@@ -82,7 +82,7 @@ a#enlace {
     height: auto;
 }
 
-div#centro {
+#centro {
     background-image: url(/img/html5.jpg);
     background-repeat: no-repeat;
     width: 853.5px;
@@ -92,7 +92,7 @@ div#centro {
     padding: 25px;
 }
 
-h2#celebre {
+#celebre {
     text-align: center;
     color:indigo;
 }
@@ -101,6 +101,7 @@ h2#celebre {
     list-style-type: disc;
     margin-top: 10px;
     font-style: italic;
+    font-size: 1.1em;
 }
 
 /*columna derecha*/
@@ -119,16 +120,16 @@ aside.right-sidebar h2 {
     text-align: center;
 }
 
-p#informacion {
+#informacion {
     margin-top: 20px;
     line-height: 25px;
     text-align: center;
 }
 
-p#info2 {
+#info2 {
     margin-top: 50px;
 }
-a#enlace2 {
+#enlace2 {
     color:white;
     font-weight: bold;
     font-size: 1.2em;

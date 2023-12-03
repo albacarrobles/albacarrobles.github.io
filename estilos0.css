@@ -109,6 +109,7 @@ fieldset {
     color:indigo;
     font-size: 20px;
     text-decoration: underline;
+    text-shadow:rgb(61, 60, 60) 4px 4px 6px;
     margin-left: 75%;
     width: 500px;
 }
@@ -125,11 +126,11 @@ fieldset {
     color:indigo;
 }
 
-.column1 {
+#column1 {
     margin-top: 70px;
 }
 
-.column1 h4 {
+#column1 h4 {
     margin-left: 55px;
 }
 
@@ -139,6 +140,10 @@ fieldset {
 
 .separar p {
     line-height: 24px;
+    word-spacing: 5px;
+    text-indent: 15px;
+    text-align: justify;
+    margin-right: 8px;
 }
 
 .column2 {
@@ -155,6 +160,10 @@ fieldset {
 
 .separar2 p {
     line-height: 24px;
+    word-spacing: 5px;
+    text-indent: 15px;
+    text-align: justify;
+    margin-right: 8px;
 }
 
 /*columna derecha*/
@@ -202,9 +211,11 @@ fieldset {
     margin-top: 20px;
 }
 
-.descripcion {
+#descripcion {
     margin-top: 20px;
     line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: justify;
 }
 
 /*pie de página*/
