@@ -52,7 +52,7 @@ aside.left-sidebar h4 {
     text-decoration: underline;
 }
 
-p#titulo {
+.titulo {
     color:rgb(91, 4, 4);
     font-size: 18px;
     font-weight: bold;
@@ -82,7 +82,7 @@ figure.imagenes img {
 }
 
 .pie3 {
-    margin-left: 85px;
+    margin-left: 80px;
     font-style: italic;
     color:rgb(91, 4, 4);
 }
@@ -196,18 +196,18 @@ fieldset {
     margin-left: 60px;
 }
 
-.enlace {
+#enlace {
     margin-top: 20px;
     margin-left: 35px;
 }
 
-.enlace a {
+#enlace a {
     color:white;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.icono {
+#icono {
     margin-top: 20px;
 }
 

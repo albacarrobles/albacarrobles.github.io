@@ -20,200 +20,136 @@
             </nav>
         </header>
 
-        <div class="zonaizquierda">
-            <aside class="left-sidebar">
-                <form action="get">
-                    <fieldset class="datos">
-                        <legend>Datos personales</legend>
-                        <div class="nombre">
-                            <label for="nombre">Nombre:</label>
-                        </div>
-                        <div class="nombre2">
-                            <input type="text" id="nombre" name="Nombre" size="15" placeholder="Escriba su nombre"
-                                required>
-                        </div>
+        <aside class="left-sidebar">
+            <form action="get">
+                <fieldset class="datos">
+                    <legend>Datos personales</legend>
+                    <p class="nombre"><label for="nombre">Nombre:</label></p>
+                    <p><input type="text" id="nombre" size="15" name="nombre" placeholder="Escriba su nombre" required>
+                    </p>
 
-                        <div class="apellidos">
-                            <label for="apellidos">Apellidos:</label>
-                        </div>
-                        <div class="apellidos2"></div>
-                        <input type="text" id="apellidos" name="Apellidos" size="30" placeholder="Escriba sus apellidos"
-                            required>
+                    <p class="apellidos"><label for="apellidos">Apellidos:</label></p>
+                    <p><input type="text" id="apellidos" size="30" name="apellidos" placeholder="Escriba sus apellidos"
+                            required></p>
 
-                        <div class="fecha">
-                            <p>Fecha de nacimiento: <input type="date" id="fecha" name="fecha de nacimiento" required>
-                            </p>
-                        </div>
+                    <p class="fecha"><label for="fecha">Fecha de nacimiento:</label>
+                    <p><input type="date" id="fecha" name="fecha de nacimiento" required></p>
 
-                        <div class="sexo">
-                            <p>Sexo:</p>
-                            <div class="sexo2">
-                                <input type="radio" id="hombre" name="hm" value="h" required><label
-                                    for="hombre">Hombre</label>
-                                <input type="radio" id="mujer" name="hm" value="m" required><label for="mujer">Mujer
-                                </label>
-                            </div>
-                        </div>
+                    <p class="sexo"><label>Sexo:</label></p>
+                    <p class="sexo"><input type="radio" id="hombre" name="hm" value="h" required>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" id="mujer" name="hm" value="m" required>
+                        <label for="mujer">Mujer</label>
+                    </p>
 
-                        <div class="nacionalidad">
-                            <label for="nacionalidad">Nacionalidad:</label>
-                        </div>
-                        <div class="nacionalidad2">
-                            <input type="text" id="nacionalidad" name="nacionalidad" size="30"
-                                placeholder="Indicar si tiene doble nacionalidad" required>
-                        </div>
+                    <p class="nacionalidad"><label for="nacionalidad">Nacionalidad:</label>
+                        <input type="text" id="nacionalidad" name="nacionalidad" size="30"
+                            placeholder="Indicar si tiene doble nacionalidad" required>
+                    </p>
 
-                        <div class="dni">
-                            <label for="dni">DNI o NIE:</label>
-                        </div>
-                        <div class="dni2">
-                            <input type="number" id="dni" name="dni" placeholder="Recuerde poner la letra"
-                                required>
-                        </div>
+                    <p class="dni"><label for="dni">DNI o NIE:</label>
+                        <input type="number" id="dni" name="dni" placeholder="Recuerde poner la letra" required>
+                    </p>
 
-                        <div class="validez">
-                            <p>Válido hasta: <input type="date" id="validez" name="validez" required>
-                            </p>
-                        </div>
+                    <p class="validez"><label for="validez">Válido hasta:</label>
+                        <input type="date" id="validez" name="validez" required>
+                    </p>
 
-                        <div class="lugarnacimiento">
-                            <label for="lugarnacimiento">Lugar de nacimiento:</label>
-                        </div>
-                        <div class="lugarnacimiento2">
-                            <input type="text" id="lugarnacimiento" name="lugarnacimiento" size="30"
-                                placeholder="Indique la ciudad y el país" required>
-                        </div>
-                    </fieldset>
-                </form>
-            </aside>
-        </div>
+                    <p class="lugardenacimiento"><label for="lugarnacimiento">Lugar de nacimiento:</label>
+                        <input type="text" id="lugarnacimiento" name="lugarnacimiento" size="30"
+                            placeholder="Indique la ciudad y el país" required>
+                    </p>
+                </fieldset>
+            </form>
+        </aside>
 
         <main class="main">
-            <div class="contacto">
+            <section class="contacto">
                 <form action="get">
                     <fieldset class="contacto2">
                         <legend>Datos de contacto</legend>
+                        <p class="motivo"><label for="motivo">Motivo del contacto:</label>
+                            <input type="text" id="motivo" name="motivo" size="85" placeholder="¿Sobre qué?">
+                        </p>
 
-                        <div class="motivo">
-                            <label for="motivo">Motivo del contacto:</label>
-                            <div class="motivo2">
-                                <input type="text" id="motivo" name="motivo" size="85" placeholder="¿Sobre qué?">
-                            </div>
-                        </div>
+                        <p class="poe"><label>Particular o empresa:</label></p>
+                        <p class="poe"><input type="radio" id="particular" name="pa" value="p" required>
+                            <label for="particular">Particular</label>
+                            <input type="radio" id="empresa" name="pa" value="e" required>
+                            <label for="empresa">Empresa</label>
+                        </p>
 
-                        <div class="poe">
-                            <input type="radio" id="particular" name="pa" value="p" required><label
-                                for="particular">Particular</label>
-                            <input type="radio" id="empresa" name="pa" value="e" required><label for="empresa">Empresa
-                            </label>
-                        </div>
+                        <p class="ocupacion"><label for="ocupacion">Ocupación si es particular:</label>
+                            <input type="text" id="ocupacion" name="ocupacion" size="85" placeholder="Ocupación actual">
+                        </p>
 
-                        <div class="ocupacion">
-                            <label for="ocupacion">Ocupación si es particular:</label>
-                            <div class="ocupacion2">
-                                <input type="text" id="ocupacion" name="ocupacion" size="85"
-                                    placeholder="Ocupación actual">
-                            </div>
-                        </div>
+                        <p class="web"><label for="empresa2">Sitio web si es empresa:</label>
+                            <input type="url" id="empresa2" name="empresa2" size="85" placeholder="https://...">
+                        </p>
 
-                        <div class="web">
-                            <label for="empresa">Sitio web si es empresa:</label>
-                            <div class="web2">
-                                <input type="url" name="empresa" size="85" placeholder="https://...">
-                            </div>
-                        </div>
-
-                        <div class="mail">
-                            <label for="email">Correo electrónico</label>
+                        <p class="mail"><label for="email">Correo electrónico:</label>
                             <input type="email" id="email" name="Email" size="40"
                                 placeholder="Escriba su correo electrónico" required>
-                        </div>
+                        </p>
 
-                        <div class="tlfno">
-                            <p>Teléfono de contacto: <input type="tel" id="Teléfono" name="Teléfono" size="20"
-                                    placeholder="Escriba su teléfono móvil" required></p>
-                        </div>
+                        <p class="tlfno"><label for="Teléfono">Teléfono de contacto:</label>
+                            <input type="tel" id="Teléfono" name="Teléfono" size="20"
+                                placeholder="Escriba su teléfono móvil" required></p>
 
-                        <div class="prefer">
-                            <p>Preferencia de contacto:</p>
-                            <div class="prefer2">
-                                <input type="checkbox" id="mañana" name="preferencia" value="Mañana"><label
-                                    for="mañana">Mañana</label>
-                                <input type="checkbox" id="tarde" name="preferencia" value="Tarde"><label
-                                    for="tarde">Tarde</label>
-                            </div>
-                        </div>
+                        <p class="prefer">Preferencia de contacto:</p>
+                        <p class="prefer"><input type="checkbox" id="mañana" name="preferencia" value="Mañana">
+                            <label for="mañana">Mañana</label>
+                            <input type="checkbox" id="tarde" name="preferencia" value="Tarde">
+                            <label for="tarde">Tarde</label>
+                        </p>
 
-                        <div class="idioma">
-                            <p>Preferencia de idioma:
-                                <select name="idioma">
-                                    <option value="0">...</option>
-                                    <option value="Español">Español</option>
-                                    <option value="Ingles">Inglés</option>
-                                </select>
-                            </p>
-                        </div>
+                        <p class="idioma">Preferencia de idioma:
+                            <select name="idioma">
+                                <option value="0">...</option>
+                                <option value="Español">Español</option>
+                                <option value="Ingles">Inglés</option>
+                            </select>
+                        </p>
 
-                        <div class="nivel">
-                            <p>Indique su nivel (Bajo, Medio o Alto):<input type="range" id="idioma" name="idioma"
-                                    min="1" max="3" list="lista-rango">
-                                <datalist id="lista-rango">
-                                    <option value="1">Bajo</option>
-                                    <option value="2">Medio</option>
-                                    <option value="3">Alto</option>
-                                </datalist>
-                            </p>
-                        </div>
+                        <p class="nivel">Indique su nivel (Bajo, Medio o Alto):<input type="range" id="idioma"
+                                name="idioma" min="1" max="3" list="lista-rango">
+                            <datalist id="lista-rango">
+                                <option value="1">Bajo</option>
+                                <option value="2">Medio</option>
+                                <option value="3">Alto</option>
+                            </datalist>
+                        </p>
                     </fieldset>
                 </form>
-            </div>
+            </section>
         </main>
 
         <aside class="right-sidebar">
-            <div class="extra">
                 <form action="get">
                     <fieldset class="extra2">
                         <legend>Datos extra</legend>
-                        <div class="coment">
-                            <p>Comentarios:</p>
-                        </div>
-                        <div class="coment2">
-                            <textarea name="texto" rows="6" cols="40"
+                            <p class="coment"><label for="texto">Comentarios:</label></p>
+                            <textarea name="texto" id="texto" rows="6" cols="40"
                                 placeholder="Si lo desea escriba información adicional"></textarea>
-                        </div>
-
-                        <div class="archivo">
-                            <p>Archivo:
-                                <input type="file" name="archivo">
+                    
+                            <p class="archivo"><label for="arch">Archivo:</label>
+                                <input type="file" id="arch" name="archivo">
                             </p>
-                        </div>
-
-                        <div class="register">
-                            <p>Registro</p>
-                        </div>
-
-                        <div class="pwd">
-                            <p>Contraseña</p>
-                        </div>
-                        <div class="pwd2">
+                        
+                            <p class="register">Registro (Nº identificativo de formulario)</p>
+                        
+                            <p class="pwd"><label for="contrasena">Contraseña</label></p>
                             <input type="password" id="contrasena" name="contrasena" size="20" maxlength="10"
                                 placeholder="No más de 10 carácteres" required>
-                        </div>
-                            <input type="reset" class="boton" value="Borrar">
-                            <input type="submit" class="boton" value="Enviar">
+                        
+                        <p><input type="reset" class="boton" value="Borrar"></p>
+                        <input type="submit" class="boton" value="Enviar">
                     </fieldset>
                 </form>
-            </div>
         </aside>
         <footer class="footer">
-            <div class="foot2">
-                <p>Alba Carrobles Merino. Todos los derechos reservados</p>
-            </div>
-            <div class="foot3">
-                <p>
-                    <a href="https://github.com/albacarrobles/albacarrobles.github.io">Git Hub</a>
-                </p>
-            </div>
+            <p id="foot2">Alba Carrobles Merino. Todos los derechos reservados</p>
+            <p><a href="https://github.com/albacarrobles/albacarrobles.github.io" id="foot3">Git Hub</a></p>
         </footer>
     </div>
 </body>

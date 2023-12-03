@@ -27,17 +27,11 @@ a.header:hover {
     padding:20px;
 }
 
-.main {
-    float:left;
-    width: 50%;
-    height: auto;
-}
-
-.zonaizquierda {
+/*columna izquierda*/
+.left-sidebar {
     margin: 0px auto;
 }
 
-/*columna izquierda*/
 .left-sidebar {
     background-color: rgb(232, 106, 106);
     width: 21%;
@@ -60,81 +54,61 @@ a.header:hover {
     margin-left: 48px;
 }
 
-div.nombre {
+.nombre {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.nombre2 {
-    margin-top: 5px;
-}
-
-div.apellidos {
+.apellidos {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.apellidos2 {
-    margin-top: 5px;
-}
-
-div.fecha {
+.fecha {
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.sexo p {
+.sexo {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.sexo2 {
-    font-size: 15px;
-    margin-top: 10px;
-    color:rgb(180, 22, 22);
-}
-
-div.nacionalidad {
+.nacionalidad {
     margin-top: 18px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.nacionalidad2 {
-    margin-top: 5px;
-}
-
-div.dni {
+.dni {
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.dni2 {
-    margin-top: 5px;
-}
-
-div.validez {
+.validez {
     margin-top: 18px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
 }
 
-div.lugarnacimiento {
+.lugardenacimiento {
     margin-top: 18px;
-    font-size: 15px;
+    font-size: 1.3em;
     color:darkred;
-}
-
-div.lugarnacimiento2 {
-    margin-top: 5px;
 }
 
 /*parte central-main*/
+.main {
+    float:left;
+    width: 50%;
+    height: auto;
+}
+
 .contacto {
     background-color:  #cb6af8;
     width: 706px;
@@ -146,7 +120,7 @@ div.lugarnacimiento2 {
     float:left;
 }
 
-.contacto fieldset {
+.contacto2 {
     padding: 0;
     height: 485px;
 }
@@ -158,79 +132,63 @@ div.lugarnacimiento2 {
     margin-left: 220px;
 }
 
-div.motivo {
+.motivo {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.motivo2 {
-    margin-top: 5px;
-}
-
-div.poe {
+.poe {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.ocupacion {
+.ocupacion {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.ocupacion2 {
-    margin-top: 5px;
-}
-
-div.web {
+.web {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.web2 {
-    margin-top: 5px;
-}
-
-div.mail {
+.mail {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.tlfno {
+.tlfno {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.prefer {
+.prefer {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.prefer2 {
-    margin-top: 5px;
-}
-
-div.idioma {
+.idioma {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
     margin-left: 5px;
 }
 
-div.nivel {
+.nivel {
     margin-top: 15px;
     font-size: 15px;
     color:indigo;
@@ -251,7 +209,7 @@ div.nivel {
     font-size:small;
 }
 
-div.extra fieldset {
+.extra2 fieldset {
     padding: 15px;
     padding-right: 25px;
     height: 455px;
@@ -259,51 +217,40 @@ div.extra fieldset {
 .extra2 legend {
     font-family:comic sans-serif;
     font-weight: bold;
-    color:blue;
+    color:darkcyan;
     font-size: 18px;
     margin-left: 110px;
 }
 
-div.coment {
+.coment {
     margin-top: 15px;
     margin-left: 5px;
-    font-size: 15px;
-    color:blue;
+    font-size: 1.3em;
+    color:darkcyan;
 }
 
-div.coment2 {
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 15px;
-    color:blue;
-}
-
-div.archivo {
+.archivo {
     margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 15px;
-    color:blue;
+    font-size: 1.3em;
+    color:darkcyan;
 }
 
-div.register {
+.register {
     margin-top: 15px;
     margin-left: 5px;
-    font-size: 15px;
-    color:blue;
+    font-size: 1.3em;
+    color:darkcyan;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-div.pwd {
+.pwd {
     margin-top: 15px;
     margin-left: 5px;
-    font-size: 15px;
-    color:blue;
-}
-div.pwd2 {
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 15px;
-    color:blue;
+    font-size: 1.3em;
+    color:darkcyan;
 }
 
 input.boton {
@@ -321,21 +268,15 @@ input.boton {
     margin-top: 5px;
 }
 
-.footer p {
-    padding: 10px;
+p#foot2 {
     color:darkgreen;
     font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
 
-div.foot2 {
-    margin-left: 480px;
-}
-
-div.foot3 {
-    margin-left: 600px;
-}
-
-.foot3 a {
+a#foot3 {
     color:white;
     font-weight: bold;
+    margin-left: 650px;
 }
