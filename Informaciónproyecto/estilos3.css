@@ -107,6 +107,19 @@ aside.left-sidebar h2 {
     font-size: 1.1em;
 }
 
+.proyecto {
+    margin-right: 80px;
+    margin-top: 40px;
+    width: 300px;
+    height:200px ;
+}
+
+#documentacion {
+    margin-top: 80px;
+    font-size: 1.2em;
+    color:indigo;
+    font-weight: bold;
+}
 /*columna derecha*/
 .right-sidebar {
     background-color: aquamarine;
