@@ -106,7 +106,7 @@ h2#celebre {
 /*columna derecha*/
 .right-sidebar {
     background-color: aquamarine;
-    width: 15%;
+    width: 16%;
     height: 450px;
     justify-content: right;
     float:right;
